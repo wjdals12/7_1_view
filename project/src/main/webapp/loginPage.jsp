@@ -40,13 +40,15 @@
 <div class="wrap">
 	<!-- header -->
 	<div id="header">
-		<div id="lgimg"><img src="" alt="로고이미지" /></div>
+		<!-- 로고 이미지 넣어야함 ㅇㅅㅇ -->
+		<div id="lgimg"><img src="resources/img/logo.jpg" alt="로고이미지" /></div>
 	</div>
 	<!-- container -->
 	<div id="container">
 		<!-- input: login part -->
 		<div id="content">
 			<form action="" id="frm" name="frm">
+			input:radio
 			<div id="input">
 				<div id="input_id">
 					<input type="text" name="id" id="id" placeholder="  아이디"/></div>
