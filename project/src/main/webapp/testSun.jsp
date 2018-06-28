@@ -5,6 +5,7 @@
   <head>
     <meta charset="utf-8">
     <title>CSS</title>
+    <!-- 모바일 페이지 만드는데 꼭필요한거!! 까먹지 말자 snippet 등록 -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="resources/css/test.css">	
   </head>
