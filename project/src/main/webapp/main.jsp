@@ -7,7 +7,8 @@
     <title>main</title>
     <link rel="stylesheet" href="resources/css/mainstyle.css">
     <meta charset="utf-8">
-    <meta name = "viewport" content="width=device-width, intial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
 </head>
 <body>
     <div class ="header">
@@ -16,7 +17,9 @@
     </div>
 
     <div class="container">
-    	
+    	<div id = "bg">
+    		
+    	</div>
     </div>
 </body>
 </html>

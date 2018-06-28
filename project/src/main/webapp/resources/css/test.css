@@ -32,6 +32,8 @@
         padding: 20px;
         border: 1px solid #bcbcbc;
       }
+      
+      /*모바일사이즈*/
       @media ( max-width: 480px ) {
         #jb-container {
           background-color : green;
