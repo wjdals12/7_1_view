@@ -1,25 +1,124 @@
 @charset "UTF-8";
+@font-face{
+	font-family: '빙그레체';
+	src: url(../font/Binggrae-Bold.ttf) format('truetype');
+}
 
 
-/*초기화*/
 
- * {margin:0px; padding:0px;}
-        ul,li { list-style:none;}
-        a { text-decoration:none;}
-        img { vertical-align:top; border:none;}
+/*설정초기화*/
+  *{margin:0px; padding:0px;}
+   ul,li { list-style:none;}
+   a { text-decoration:none;}
+   img { vertical-align:top; border:none;} 
 
-
-.header{width: 790px; height: 80px; margin: 0 auto;}
 
 /*상단영역 시작*/
+.header {width: 100% height: 100px; background-color: #FF2424;}
+.header-bar{width: 990px; height:100px; margin: 0 auto; background-color:#FF2424; }
+.header-bar h1 { float: left; margin: 0 auto; margin-top:10px; } /*로고*/
 
-.header h2>img {float: left; margin-top:25px; }
-.header h1 {text-align: center; margin-top: 10px;}
-
+/*로그인,회원가입*/
+.header-bar .nav {float:right; margin-top:33px; }
+.header-bar .nav li a { text-decoration: none; color: #ffffff; font-size: 18px;}
+.header-bar .nav li{float:left; margin-left:10px; list-style: none; }
 /*상단영역 끝*/
 
-.container {width:100%; height:80%; background-color: pink;
+/*중단영역 시작*/
+.container {margin: 0 auto; width: 100%;}
+
+/*배경*/
+.container #bg {width:100%; height: 850px; background-image: url(../img/bg.jpg);
+background-repeat:no-repeat; min-height: 100%;  background-size: cover;
 }
+
+/*배경 글씨*/
+.container #bg h1 {font-size: 110px; text-align: center; color: #FF2424; font-family: '빙그레체';
+	padding-top: 70px; font-family: 빙그레체 ,serif;
+}
+
+
+/*sel 컨테이너*/
+.container #bg .sel {width: 990px; height: 100%; margin: 0 auto; text-align: center;
+	padding-top: 200px;}
+
+/*검색바*/
+.sel1 {width: 150px; height: 80px; font-size: 30px; border: 1px solid black;
+		border-radius: 5px;  -webkit-appearance: none; -moz-appearance: none;
+		appearance: none; background-image: url(../img/under_icon.png);
+		background-repeat: no-repeat; background-position: right;
+		background-size: 20px 20px;
+		
+		
+
+}
+
+.sel1 ::-ms-expand { display: none; } /*IE에 아이콘 제거*/
+
+.sel2 {width: 400px; height: 80px; font-size: 30px; border: 1px solid black;
+		border-radius: 5px;  -webkit-appearance: none; -moz-appearance: none;
+		appearance: none; background-image: url(../img/under_icon.png);
+		background-repeat: no-repeat; background-position: right;
+		background-size: 20px 20px;
+		
+
+}
+
+/** check, hover 스타일 설정 IE, Chrome 
+select option:checked, 
+select option:hover {    
+        background: #FF2424; 
+        color: #fff;
+} **/
+/**
+/* check, hover 스타일 설정 FireFox 
+         select option:checked,
+        select option:hover { 
+        box-shadow: 0 0 10px 100px #FF2424 inset;  
+        color: #fff;
+}
+ **/
+
+/*메뉴 테이블 */
+table {width: 100%; height: 330px;  border-collapse: collapse;}
+td {width: 33%; border:1px solid #000; text-align: center; padding-bottom: 10px;}
+table h2{padding-bottom: 10px; }
+
+/*중단영역 끝*/
+
+/*하단영역 시작*/
+.footer {width:100%;background-color:#272727; }
+.footer h4 {color: #A5A5A5; padding-top: 20px; padding-left: 15px;}
+.footer p {color: #A5A5A5; padding-bottom: 10px; padding-left: 15px;}
+
+
+/*하단영역 끝*/
+
+/**********************************/
+
+/*모바일 사이즈*/
+
+/* @media only screen and( max-width: 360px){
+
+.header-bar{margin: 0 auto; display: none;}
+.header-bar h1 {display: none;} 로고
+
+로그인,회원가입
+.header-bar .nav{margin-top:33px; }
+.header-bar .nav li{display: none; }
+상단영역 끝
+
+중단영역 시작
+.container {margin: 0 auto; width: 100%;}
+
+배경
+.container #bg {background-image: url(../img/bg.jpg);
+background-repeat:repeat;
+}
+
+배경 글씨
+.container h1 { display: none;
+} */
 
 
 
