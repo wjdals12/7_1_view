@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/*하단영역 시작*/
+.footer {width:100%;background-color:#272727; }
+.footer h4 {color: #A5A5A5; padding-top: 20px; padding-left: 15px;}
+.footer p {color: #A5A5A5; padding-bottom: 10px; padding-left: 15px;}
+
+
+/*하단영역 끝*/
